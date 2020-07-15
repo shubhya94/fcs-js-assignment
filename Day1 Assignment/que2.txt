@@ -1,0 +1,11 @@
+Diffrence between var,const and let in javascript
+
+var declarations are globally scoped
+var variables can be updated and re-declarated within scoped
+
+let declarations are block scoped
+let variables can be updated but not re-declarated
+
+const declarations are block scoped
+const variables neither be updated nor re-declarated
+

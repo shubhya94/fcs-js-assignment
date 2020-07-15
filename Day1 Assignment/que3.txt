@@ -1,0 +1,49 @@
+Data Types in Javascript
+
+Data types in javascript are dynamic i.e the same variable can be used to hold diffrent data types
+
+1. Strings
+   it is series of characters
+   var name="shubham"
+   
+2. Numbers
+   it has only one type of number can be written with or without decimals
+    var x=59
+    var y=59.94
+
+3. Boolean
+   Boolean has two values true or false
+   it is used for conditional testing
+
+  var x=5
+  var y=5
+  var z=7
+   (x == y)  //returns true
+   (x == z)  //returns false
+   
+4. Arrays
+   arrays are written in square brackets []
+     vars fruits = ["apple","mango","banana"];
+
+5. Objects
+   Objects are written in curley braces {}	
+    var person = {name:"shubham",age:"25",city:"nashik"};	
+
+6. The typeof operator
+	used to find the types of javascript variable
+	
+	typeof "shubham"   //returns string
+	typeof "25"        //returns number    
+	
+7. Undefined
+   A variable without value has value undefined
+    
+    car= undefined;
+
+8. Empty values
+   An empty values has nothing do with undefined
+    var car=""
+
+9 .Null
+    null is nothing,something which doesnt exists
+	

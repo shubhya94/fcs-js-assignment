@@ -1,0 +1,23 @@
+Different methods in console function
+ 1. console.log()
+     It is used to print the output of console
+	 
+ 2. console.error()
+     It is used to print error message in highlighted red color
+
+ 3. console.warn()
+     It is used to print warning message in highlighted yellow color
+
+ 4. console.clear()
+     It is used to clear console
+
+ 5. console.time()
+     To get amount of time spend by block
+
+ 6. console.table()
+     It is allowed to generate table inside console
+
+ 7.	console.count()
+     It is used to count the number that the function hits.
+
+	 
