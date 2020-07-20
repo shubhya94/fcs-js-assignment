@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log OS version</title>
+</head>
+<body>
+<script>
+var str = prompt("Enter your system OS and version. E.g. android 9");
+var result = str.split(" ");
+document.write(" The OS name is "+result[0]+" and version is "+result[1]);
+console.log("The OS name is "+result[0]+" and version is "+result[1]);
+</script>
+</body>
+</html>

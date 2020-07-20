@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log OS version</title>
+</head>
+<body>
+<script>
+/*
+// Using conditional statement
+var marks = prompt("Enter your marks");
+if(marks > 75){
+document.write(" Marks are "+marks+" and Grade is A");
+console.log(" Marks are "+marks+" and Grade is A");
+}
+else if(marks > 50){
+document.write(" Marks are "+marks+" and Grade is B");
+console.log(" Marks are "+marks+" and Grade is B");
+}
+else if(marks > 30){
+document.write(" Marks are "+marks+" and Grade is C");
+console.log(" Marks are "+marks+" and Grade is C");
+}
+else{
+document.write(" Marks are "+marks+" and Grade is D");
+console.log(" Marks are "+marks+" and Grade is D");
+}
+*/   
+//Using Switch statement
+
+var marks = prompt("Enter your marks");
+switch(true){
+case (marks > 75) :
+document.write(" Marks are "+marks+" and Grade is A");
+console.log(" Marks are "+marks+" and Grade is A");
+break;
+
+case (marks > 50) :
+document.write(" Marks are "+marks+" and Grade is B");
+console.log(" Marks are "+marks+" and Grade is B");
+break;
+
+case (marks > 30) :
+document.write(" Marks are "+marks+" and Grade is C");
+console.log(" Marks are "+marks+" and Grade is C");
+break;
+
+default  :
+document.write(" Marks are "+marks+" and Grade is D");
+console.log(" Marks are "+marks+" and Grade is D");
+
+
+}
+</script>
+</body>
+</html>
