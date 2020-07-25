@@ -1,0 +1,27 @@
+<head>
+    <title>Filter Function</title>
+</head>
+
+<body>
+    <script>
+        let input=prompt("Enter the postive number");
+         let arr=[];
+         for(let i=1;i<=input;i++)
+           {
+               arr[i]=prompt("enter the number");
+
+           }
+           for(let i=1;i<=input;i++){
+               document.write(arr[i]+"");
+           }
+
+            let oddarray=arr.filter(input =>input%2);
+            console.log(oddarray);
+
+            let cube=arr.filter(input =>input%2).map(input=>input*input*input);
+            console.log(cube);
+           
+
+           
+    </script>
+</body>
